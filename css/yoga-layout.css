@@ -1,0 +1,750 @@
+@charset "utf-8";
+
+/* CSS Document */
+body {
+  font-family: 'Lato', sans-serif !important;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  color: #2162a3;
+}
+
+p {
+  color: #2162a3;
+}
+
+.border-top {
+  border-top: solid 5px #2162a3 !important;
+  box-shadow: 1px 2px 20px #f3ddff;
+  background-color: #fff;
+  position: relative;
+  background-color: #fff;
+  z-index: 1030;
+}
+
+.logo {
+  /* width: 10rem; */
+  border: none
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 2rem;
+  font-size: 18px !important;
+  font-weight: 600;
+  color: #2162a3;
+}
+
+.active>.nav-link {
+  color: #2162a3 !important;
+}
+
+.banner {
+  background-image: url("../images/banner1.jpg");
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.panel1 {
+  background-image: url("../images/circleBG.jpg");
+  background-attachment: scroll;
+  background-size: inherit;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 224px;
+}
+
+.mainHead h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-top: 4rem !important;
+}
+
+.mainHead h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.yogaclmn img {
+  width: 210px;
+  height: 210px;
+}
+
+.threedots {
+  color: #2162a3 !important;
+  padding-left: 1.2rem;
+}
+
+.panelbox {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 0rem 3rem;
+  text-align: left;
+}
+
+.panelbox h4 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.panelbox p {
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+  font-weight: 300;
+}
+
+.panelbox h5 {
+  padding-top: 0.5rem;
+  font-size: 0.9rem;
+  border-top: solid 1px #2162a3;
+  letter-spacing: 0px;
+}
+
+.more {
+  margin: 2rem 0 4rem 0;
+}
+
+.btn {
+  background-color: #2162a3;
+  width: 200px;
+  padding: 0.6rem 0.75rem;
+  color: #fff;
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.panel2 {
+  background-image: url("../images/yogaBG2.jpg");
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.summer h2 {
+  color: #1469c6;
+  padding-top: 10rem;
+  padding-left: 3rem;
+  font-size: 2rem;
+  font-weight: 600px;
+  text-transform: uppercase;
+}
+
+.summer h5 {
+  color: #1469c6;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  font-size: 1.5rem;
+  font-weight: 300px;
+  text-transform: uppercase;
+  line-height: 2rem;
+}
+
+.panel3 {
+  background-image: url("../images/greyBG1.jpg");
+  background-attachment: scroll;
+  background-size: inherit;
+  background-position: left top;
+  background-repeat: no-repeat;
+  min-height: 671px;
+}
+
+.practclm {
+  padding: 3rem;
+}
+
+.practclm h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-top: 5rem;
+}
+
+.practclm h5 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 3rem 0 1rem 0;
+}
+
+.practclm h6 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  /* padding: 3rem 0 1rem 0; */
+}
+
+.practclm p {
+  letter-spacing: 0.5px;
+  padding: 0 0 0 0;
+  font-weight: 300;
+}
+
+.practImg {
+  margin-top: 5rem;
+  padding: 3rem;
+}
+
+.practImg p {
+  position: absolute;
+  bottom: 2.5rem;
+  right: 0;
+  font-size: 1.2rem;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 300;
+}
+
+.practImg h6 {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 0;
+  font-size: 1.2rem;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 300;
+}
+
+.brd {
+  border-bottom: solid 1px #2162a3;
+}
+
+.practclm h6 {
+  letter-spacing: 2px;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+  line-height: 1.5rem;
+}
+
+.panel4 {
+  background-image: url("../images/greyBG2.jpg");
+  background-attachment: scroll;
+  background-size: inherit;
+  background-position: right top;
+  background-repeat: no-repeat;
+  min-height: 671px;
+}
+
+.panel5 {
+  padding-top: 4rem;
+}
+
+.panel5 h1 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #2162a3;
+  line-height: 0.1em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 10px 0 20px;
+}
+
+.panel5 h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+}
+
+.panel5 h1 span {
+  background: #fff;
+  padding: 0 20px;
+}
+
+.workshop {
+  padding: 3rem 1rem 1rem 5rem;
+}
+
+.workshop h2 {
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding-top: 3rem;
+}
+
+.workshop strong {
+  font-weight: 600;
+}
+
+.workshop h5 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 3rem 0 1rem 0;
+}
+
+.workshop h6 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 3rem 0 1rem 0;
+}
+
+.workshop p {
+  letter-spacing: 1px;
+  padding: 0 0 0 0;
+  font-weight: 300;
+}
+
+.worksImg {
+  margin-top: 2rem;
+  padding: 3rem;
+}
+
+.worksImg p {
+  position: absolute;
+  bottom: 1.5rem;
+  right: -1rem;
+  font-size: 1.2rem;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 300;
+}
+
+.workshop h3 {
+  position: absolute;
+  top: 7rem;
+  left: 0;
+  font-size: 0.8rem;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 300;
+}
+
+/*..........footer...........*/
+.footercontainer {
+  background-image: url("../images/footerBG.jpg");
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  min-height: 700px;
+  border-bottom: solid 5px #16395b;
+}
+
+.flower {
+  padding-top: 10rem;
+}
+
+.ftrtext {
+  padding: 2.5rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 2.0rem;
+}
+
+.semi {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.ftrmenu h5 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.ftrmenu p {
+  font-weight: 300;
+}
+
+.ftrcol h6 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.ftrcol ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 0.7rem;
+}
+
+.ftrcol ul li {
+  padding-top: 5px;
+  font-size: 0.9rem;
+}
+
+.ftrcol ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+}
+
+/*..........ripple...........*/
+.circle {
+  height: 170px;
+  width: 170px;
+  box-shadow: 0px 10px 20px #fff;
+  border-radius: 50%;
+  background-color: #fff;
+  position: relative;
+  left: 100px;
+  top: 150px;
+  -webkit-transition: height .25s ease, width .25s ease;
+  transition: height .25s ease, width .25s ease;
+
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.circle h1 {
+  text-align: center;
+  padding-top: 2rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.circle:hover {
+  height: 170px;
+  width: 170px;
+}
+
+.circle:before,
+.circle:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 1px solid #2162a3;
+}
+
+.circle:before {
+  -webkit-animation: ripple 2s linear infinite;
+  animation: ripple 2s linear infinite;
+}
+
+.circle:after {
+  -webkit-animation: ripple 2s linear 1s infinite;
+  animation: ripple 2s linear 1s infinite;
+}
+
+.circle:hover:before,
+.circle:hover:after {
+  -webkit-animation: none;
+  animation: none;
+}
+
+@-webkit-keyframes ripple {
+  0% {
+    -webkit-transform: scale(1);
+  }
+
+  75% {
+    -webkit-transform: scale(1.75);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+  }
+
+  75% {
+    transform: scale(1.75);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+
+.ripple2 {
+  /* margin: auto; */
+  top: 7rem;
+  float: right;
+  right: 90px;
+  background-color: #fff;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  position: relative;
+  animation: ripple2 3s linear infinite;
+}
+
+.ripple2::before,
+.ripple2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  animation: inherit;
+  animation-delay: 1s;
+}
+
+.ripple2::after {
+  animation-delay: 2s;
+}
+
+@keyframes ripple2 {
+  0% {
+    box-shadow: 0 0 0 .7rem rgba(255, 255, 255, 0.2);
+  }
+
+  100% {
+    box-shadow: 0 0 0 8rem rgba(255, 255, 255, 0);
+  }
+}
+
+.ripple3 {
+  margin: auto;
+  top: 1rem;
+  background-color: #fff;
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+  position: relative;
+  text-align: center;
+  border: solid 1px #2162a3;
+}
+
+.ripple3 h3 {
+  font-size: 0.8rem;
+  margin-top: -25px;
+  color: #2162a3;
+  font-weight: 300;
+}
+
+.ripple3 h2 {
+  font-size: 1rem;
+  padding-top: 0.6rem;
+  color: #2162a3;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.ripple3 p {
+  font-weight: 600;
+  padding-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
+/*..........carousel...........*/
+.yoga {
+  text-align: center;
+}
+
+.yoga img {
+  margin-bottom: 20px;
+  width: 148px !important;
+  margin: 0 auto 40px auto;
+}
+.yoga h3 {
+  font-size: 1.5rem;
+  font-weight: 900 !important;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.yoga p {
+  font-size: 18px;
+  font-weight: 400 !important;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.yoga h3 a {
+  color: #2162a3;
+}
+
+.cloud_course img {
+  margin-bottom: 20px;
+  width: 300px !important;
+  margin: 0 auto 20px auto;
+}
+
+.cloud_course h3 {
+  font-size: 1.5rem;
+  font-weight: 600 !important;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  padding-left: 20px;
+}
+
+.cloud_course p {
+  font-size: 18px;
+  font-weight: 400 !important;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+  padding-left: 20px;
+}
+
+.cloud_course h3 a {
+  color: #2162a3;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky+.content {
+  padding-top: 5.698rem;
+}
+
+@media (max-width: 768px) {
+  .ripple2 {    
+    top: 0rem;   
+    right: 130px;
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .navbar {
+    padding: 0.5rem 0;
+  }
+
+  .practImg {
+    order: 2;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .ftrcol {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .ripple2 {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .ripple3 {
+    width: 14rem;
+    height: 14rem;
+    top: 0.5rem;
+  }
+
+  .practImg h6 {
+    bottom: 0px;
+    left: -1rem;
+  }
+
+  .worksImg {
+    margin-top: 0rem;
+    padding: 2rem;
+  }
+
+  .workshop {
+    padding-left: 3rem;
+    padding-top: 1rem;
+  }
+
+  .ftrcol h6 {
+    font-size: 1.3rem;
+  }
+
+  .ftrcol li a {
+    font-size: 1rem;
+  }
+
+  .ftrmenu {
+    text-align: center;
+  }
+
+  .ftrmenu img {
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+    padding-bottom: 2rem;
+  }
+
+
+}
+
+@media (max-width: 992px) {
+  .yogaclmn img {
+    width: 200px;
+    height: 200px;
+  }
+
+}
+
+
+.owl-2-style .owl-nav {
+  display: none;
+}
+
+.owl-2-style .owl-dots {
+  text-align: center;
+  position: relative;
+  bottom: -30px;
+}
+
+.owl-2-style .owl-dots .owl-dot {
+  display: inline-block;
+}
+
+.owl-2-style .owl-dots .owl-dot span {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 0px;
+  background: #cccccc;
+  -webkit-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+  -o-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+  transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+  margin: 3px;
+  border-radius: 50%;
+}
+
+.owl-2-style .owl-dots .owl-dot.active span {
+  background: #007bff;
+}
+
+.owl-2-style .owl-dots .owl-dot:active,
+.owl-2-style .owl-dots .owl-dot:focus {
+  outline: none;
+}
